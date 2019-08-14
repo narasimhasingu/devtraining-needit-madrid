@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Airlines Rule" max_length="40" name="x_58872_needit_airlines_rule" type="collection">
+        <element attributes="staticDependent=x_58872_needit_airteline_status" choice_field="status" choice_table="x_58872_needit_airteline_status" label="Condition" max_length="4000" name="condition" type="conditions"/>
+        <element label="Order" max_length="40" name="order" type="integer"/>
+        <element choice="1" choice_field="status" choice_table="x_58872_needit_airteline_status" label="Status" max_length="40" name="status" type="choice">
+            <choice/>
+        </element>
+    </element>
+</database>
